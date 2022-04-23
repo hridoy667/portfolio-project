@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+        <style>
+        body {
+          background-image: url("Background.gift");
+        }
+        </style>
+       
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compitable" content="IE-edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>personal Portfolio Website</title>
+<link rel="stylesheet" href="project.css">
+
+</head>
+
+<body>
+
+
+   
+    <div class="hero">
+        <nav>
+            <img src="picture/logoproject.png" class="logo">
+            <ul>
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Servives</a></li>
+                
+
+
+
+
+            </ul>
+
+
+
+        </nav>
+        <div class="detel">
+          
+           <h1>Your Name</h1>
+           <p>This is my official portfolio website to shows all
+               <br>Details and works experience.
+
+
+               <h4> your Details </h4>
+           </p>
+           <a href="#">Download CV</a>
+           
+
+        </div>
+        <div class ="picture">
+            <img src="picture/picproject.png" class="picproject">
+        </div>
+
+    </div>
+    
+</body>
+</html>
+Shahriar
+Shahriar Rahman
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.picture{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.picture img{
+    height: 110%;
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
